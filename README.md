@@ -15,6 +15,8 @@ Setup your Validation on config phase by using some rules [(example)](https://gi
 ](https://github.com/thetutlage/angular-validation-schema) [(Demo)](http://plnkr.co/edit/X56HEsDYgYoY8gbSj7cu?p=preview)
 <br/>And add Validation in your view only.
 
+[(another demo)](http://plnkr.co/edit/yJkRz2CrpvNierv6Fw0E)
+
 angularjs 1.2.x support to version [angular-validation 1.2.x](https://github.com/huei90/angular-validation/tree/v1.2.x) <br/>
 angularjs 1.3.x support after version [angular-validation 1.3.x](https://github.com/huei90/angular-validation/tree/v1.3.x) <br/>
 angularjs 1.4.x support after version angular-validation 1.4.x
@@ -27,6 +29,8 @@ Requirement
 
 DEMO
 -----
+http://plnkr.co/edit/yJkRz2CrpvNierv6Fw0E
+
 http://huei90.github.io/angular-validation/
 
 http://plnkr.co/edit/rjIIkX (Bootstrap framework)
@@ -98,6 +102,12 @@ Integrating with Twitter Bootstrap
 =====
 
 To integrate this package with Bootstrap you should do the following.
+
+```css
+
+.validation-valid {color:green; }
+.validation-invalid { color:red;}
+```
 
 
 Add the following LESS to your project
